@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+:root{
+  --background-color: #01002a;
+  --primary-color: #fed700;
+  --hr-color: #c4c4c4;
+}
+body{
+  background-color: var(--background-color);
+}
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+
+button{
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+
+input{
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  outline: none;
+}
+
+.btn{
+  padding: 1rem 3rem;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  color: #111;
+  font-weight: bold;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--background-color);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--hr-color);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-color);
+}
+
+
+.color{
+  color:var(--primary-color)
+}
+
+
+.btn-input{
+  padding: .90rem 4rem;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  color: #fff;
+}
